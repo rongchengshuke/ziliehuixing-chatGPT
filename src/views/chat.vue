@@ -449,9 +449,9 @@ export default {
   mounted() {
     console.log("mounted");
     let is_declaration = window.localStorage.getItem("is_declaration");
-    if (!is_declaration) {
-      this.dialogVisible = true;
-    }
+    // if (!is_declaration) {
+    //   this.dialogVisible = true;
+    // }
   },
   beforeDestroy() {
     if (this.source) {
