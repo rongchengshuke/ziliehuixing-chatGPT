@@ -396,6 +396,7 @@
 <script>
 import axios from "axios";
 import { EventSourcePolyfill } from "event-source-polyfill";
+import { fetchEventSource } from '@microsoft/fetch-event-source';
 import { getHistoryList, chatgptAnswer, get_chatgpt_num } from "@/api/data";
 /**
  * 将服务端格返回字符串尝试格式化为json
